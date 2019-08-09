@@ -20,8 +20,6 @@ namespace COMP123_S2019_FinalTestA.Objects
         private string m_intuition;
         private string m_pysche;
         private string m_popularity;
-        private string m_health;
-        private string m_karma;
 
 
         // Identity
