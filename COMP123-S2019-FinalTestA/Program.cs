@@ -1,4 +1,5 @@
-﻿using COMP123_S2019_FinalTestA.Views;
+﻿using COMP123_S2019_FinalTestA.Objects;
+using COMP123_S2019_FinalTestA.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +10,9 @@ namespace COMP123_S2019_FinalTestA
 {
     static class Program
     {
-        //This is temporary
-        public static MasterForm masterForm;
+        
+        public static HeroGenerator heroGenerator;
+        public static Power power;
 
         /// <summary>
         /// The main entry point for the application.
@@ -21,9 +23,11 @@ namespace COMP123_S2019_FinalTestA
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            masterForm = new MasterForm()
+            heroGenerator = new HeroGenerator()
+
+            power = new Power();
 ;
-            Application.Run(masterForm);
+            Application.Run(heroGenerator);
         }
     }
 }

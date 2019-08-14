@@ -10,7 +10,7 @@ using System.Threading.Tasks;
  */
 namespace COMP123_S2019_FinalTestA.Objects
 {
-    class Power
+    public class Power
     {
         public string Name { get; set; }
         public int Number { get; set; }
